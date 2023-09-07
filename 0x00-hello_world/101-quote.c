@@ -1,18 +1,18 @@
-#include <stdio.h>
+#include <unistd.h>
 
 /**
- * main - entry point
- *
- * Description: A C Programm that print with put function
- *
- *Return: alawys 0 (success)
- */
+* main - entry point
+*
+* Description: print a qoute using write function
+* write ( int fd.cinst void *buf,size_t count)
+*
+* Return: alawys 1 (not success)
+*/
 
-int main()
+int main(void)
 {
-       	const char* phrase = "and that piece of art is useful - Dora Korpar, 2015-10-19\n";
+	char quo[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 
-	fprintf(stderr, "%s", phrase);
-
-	return 0;
+	iwrite(1, quo, 59);
+	return (1);
 }
