@@ -19,11 +19,10 @@ int main(void)
 	{
 	putchar('0' + a);
 	putchar('0' + b);
-	if (b != 9)
-	{
+	if (a == 8 && b == 9)
+	break;
 	putchar(',');
 	putchar(' ');
-	}
 	}
 	}
 	putchar('\n');
