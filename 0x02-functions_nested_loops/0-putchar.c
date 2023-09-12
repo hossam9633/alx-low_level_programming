@@ -1,5 +1,6 @@
 #include <stdio.h>
-
+#include "main.h"
+void _putchar(void);
 /**
 * main - entry point
 *
@@ -10,6 +11,6 @@
 
 int main(void)
 {
-	printf("_putchar\n");
+	_putchar();
 	return (0);
 }
