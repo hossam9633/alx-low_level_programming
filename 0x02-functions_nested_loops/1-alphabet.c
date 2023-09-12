@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
-* main - entry point
 *
-* Description: for loop  putchar to print lowercase and upper  alphapet
+* Description: use _putchar function  to print lowercase  alphapet
 *
 */
 
