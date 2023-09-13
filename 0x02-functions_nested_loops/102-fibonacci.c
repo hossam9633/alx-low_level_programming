@@ -12,7 +12,7 @@
 int main(void)
 {
 	int count;
-	int f1, f2, f;
+	unsigned long f1, f2, f;
 
 	f1 = 0;
 	f2 = 1;
