@@ -17,7 +17,7 @@ int main(void)
 	f1 = 0;
 	f2 = 1;
 
-	for (count = 0; count <= 50; count++)
+	for (count = 0; count < 50; count++)
 	{
 		f = f1 + f2;
 		printf("%lu", f);
