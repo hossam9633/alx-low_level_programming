@@ -20,7 +20,7 @@ int main(void)
 	for (count = 0; count <= 50; count++)
 	{
 		f = f1 + f2;
-		printf("%ul", f);
+		printf("%lu", f);
 
 		f1 = f2;
 		f2 = f;
