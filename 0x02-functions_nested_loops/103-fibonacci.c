@@ -21,10 +21,10 @@ int main(void)
 	while (1)
 	{
 		f = f1 + f2;
-		if (sum > 4000000)
+		if (f > 4000000)
 			break;
-		if ((sum % 2) == 0)
-			total_sum += sum;
+		if ((f % 2) == 0)
+			total_sum += f;
 
 		f1 = f2;
 		f2 = f;
