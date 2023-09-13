@@ -8,7 +8,7 @@
  *	the multiples of 3 or 5
  *	below 1024 (excluded)
  *
- * return: Alawys 0 (success)
+ * @return: Alawys 0 (success)
  */
 
 int main(void)
