@@ -1,0 +1,25 @@
+#include "main.h"
+
+/**
+ * main - entry point
+ *
+ * descroption: computes the sum of all
+ *	the multiples of 3 or 5
+ *	below 1024 (excluded)
+ *
+ * return: alawys 0 (success)
+ */
+
+int main(void)
+{
+	int sum, num;
+
+	for (num = 0; num < 1024; num++)
+	{
+		if ((num % 3 == 0) || (num % 5 == 0))
+			sum += num;
+	}
+	printf("%d", sum);
+
+	return (0);
+}
