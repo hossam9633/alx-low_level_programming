@@ -1,9 +1,10 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
- * main - Entry point
+ * main - Entry point no return
  *
- * descroption: computes the sum of all
+ * descroption: main computes the sum of all
  *	the multiples of 3 or 5
  *	below 1024 (excluded)
  *
@@ -19,7 +20,7 @@ int main(void)
 		if ((num % 3 == 0) || (num % 5 == 0))
 			sum += num;
 	}
-	printf("%d", sum);
+	printf("%d\n", sum);
 
 	return (0);
 }
