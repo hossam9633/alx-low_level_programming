@@ -2,13 +2,12 @@
 #include "main.h"
 
 /**
-*
-* numLength - returns the length of string
-*
-* @num : operand number
-*
-* Return : number of digits
-*/
+ * numLength - returns the length of string
+ *
+ * @num : operand number
+ *
+ * Return : number of digits
+ */
 
 int numLength(int num)
 {
@@ -19,7 +18,7 @@ int numLength(int num)
 	while (num)
 	{
 	num = num / 10;
-	length + = 1;
+	length += 1;
 	}
 	return (length);
 
@@ -39,7 +38,7 @@ int main(void)
 	int count, initial0s;
 	unsigned long f1 = 1, f2 = 2, sum, mx = 100000000, flo = 0, f20 = 0, sumo = 0;
 
-	for (count = 1; count < = 98; count++)
+	for (count = 1; count <= 98; count++)
 	{
 		if (flo > 0)
 			printf("%lu", flo);
