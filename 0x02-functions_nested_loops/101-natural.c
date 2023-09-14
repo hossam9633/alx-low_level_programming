@@ -4,9 +4,10 @@
 /**
 * main - Entry point
 *
-* Description: Calculates and prints the sum of all the multiples of 3 or 5 below 1024.
+* Description: Calculates and print
+*	s the sum of all the multiples of 3 or 5 below 1024.
 *
-* Return: 0 indicating successful execution.
+* Return: 0 successful.
 */
 
 int main(void)
